@@ -1,0 +1,3566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="PP_Volume_Requirements_enhancement - duplicate">
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="baseUrl" elementType="Argument">
+            <stringProp name="Argument.name">baseUrl</stringProp>
+            <stringProp name="Argument.value">https://qa-ecs.pointchain.io</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="existing_businessMerchant_1" elementType="Argument">
+            <stringProp name="Argument.name">existing_businessMerchant_1</stringProp>
+            <stringProp name="Argument.value">Rovery merchant</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="existing_businessMerchant_2" elementType="Argument">
+            <stringProp name="Argument.name">existing_businessMerchant_2</stringProp>
+            <stringProp name="Argument.value">Monizy merchant</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="existing_businessMerchant_3" elementType="Argument">
+            <stringProp name="Argument.name">existing_businessMerchant_3</stringProp>
+            <stringProp name="Argument.value">Innervy merchant</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="existing_businessMerchant_4" elementType="Argument">
+            <stringProp name="Argument.name">existing_businessMerchant_4</stringProp>
+            <stringProp name="Argument.value">Fintico merchant</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="existing_businessMerchant_5" elementType="Argument">
+            <stringProp name="Argument.name">existing_businessMerchant_5</stringProp>
+            <stringProp name="Argument.value">Riwis merchant</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="existing_businessMerchant_6" elementType="Argument">
+            <stringProp name="Argument.name">existing_businessMerchant_6</stringProp>
+            <stringProp name="Argument.value">Wibeto merchant</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="existing_individualMerchant_1" elementType="Argument">
+            <stringProp name="Argument.name">existing_individualMerchant_1</stringProp>
+            <stringProp name="Argument.value">Kelly Haack</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="existing_individualMerchant_2" elementType="Argument">
+            <stringProp name="Argument.name">existing_individualMerchant_2</stringProp>
+            <stringProp name="Argument.value">Barbara Gribble</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="existing_individualMerchant_3" elementType="Argument">
+            <stringProp name="Argument.name">existing_individualMerchant_3</stringProp>
+            <stringProp name="Argument.value">Sarah Lovett</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="existing_individualMerchant_4" elementType="Argument">
+            <stringProp name="Argument.name">existing_individualMerchant_4</stringProp>
+            <stringProp name="Argument.value">Carla Ames</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="existing_individualMerchant_5" elementType="Argument">
+            <stringProp name="Argument.name">existing_individualMerchant_5</stringProp>
+            <stringProp name="Argument.value">Samuel Peterson</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="existing_individualMerchant_6" elementType="Argument">
+            <stringProp name="Argument.name">existing_individualMerchant_6</stringProp>
+            <stringProp name="Argument.value">Robert Dixon</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="credhit_hit_once_businessMerchant" elementType="Argument">
+            <stringProp name="Argument.name">credhit_hit_once_businessMerchant</stringProp>
+            <stringProp name="Argument.value">Quotam Merchant</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="debit_hit_once_IndividualMerchant" elementType="Argument">
+            <stringProp name="Argument.name">debit_hit_once_IndividualMerchant</stringProp>
+            <stringProp name="Argument.value">Helen Marquart</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accessId_1" elementType="Argument">
+            <stringProp name="Argument.name">accessId_1</stringProp>
+            <stringProp name="Argument.value">45ce813d-34c4-4453-8b14-9eefa329cef4</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accessKey_1" elementType="Argument">
+            <stringProp name="Argument.name">accessKey_1</stringProp>
+            <stringProp name="Argument.value">d033e2d6-43ab-4a87-b276-90fdbe798027</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accessSecret_1" elementType="Argument">
+            <stringProp name="Argument.name">accessSecret_1</stringProp>
+            <stringProp name="Argument.value">283f9260-fab6-43cc-8e02-bfa1182daaba</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accountId_1" elementType="Argument">
+            <stringProp name="Argument.name">accountId_1</stringProp>
+            <stringProp name="Argument.value">e8fb5560-ff6a-40ee-8086-18cfb18644d9</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accountNumber_1" elementType="Argument">
+            <stringProp name="Argument.name">accountNumber_1</stringProp>
+            <stringProp name="Argument.value">2000000133</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accessId_2" elementType="Argument">
+            <stringProp name="Argument.name">accessId_2</stringProp>
+            <stringProp name="Argument.value">f873714b-4eb2-4a63-b5f1-fb2ab1aa037d</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accessKey_2" elementType="Argument">
+            <stringProp name="Argument.name">accessKey_2</stringProp>
+            <stringProp name="Argument.value">9726e04b-8437-44fb-bf0d-ed0e7a1d1913</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accessSecret_2" elementType="Argument">
+            <stringProp name="Argument.name">accessSecret_2</stringProp>
+            <stringProp name="Argument.value">9d353ab9-160c-4bad-8ee9-aefc55ad05c5</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accountId_2" elementType="Argument">
+            <stringProp name="Argument.name">accountId_2</stringProp>
+            <stringProp name="Argument.value">3fb5fb32-ff00-462c-85c1-58d2e9eb8130</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accountNumber_2" elementType="Argument">
+            <stringProp name="Argument.name">accountNumber_2</stringProp>
+            <stringProp name="Argument.value">2000000136</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accessId_3" elementType="Argument">
+            <stringProp name="Argument.name">accessId_3</stringProp>
+            <stringProp name="Argument.value">8053984d-d42c-438c-a5a9-38f2f2f5009b</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accessKey_3" elementType="Argument">
+            <stringProp name="Argument.name">accessKey_3</stringProp>
+            <stringProp name="Argument.value">3e67ac7d-af5a-4e7f-b6a1-3f73eebca79d</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accessSecret_3" elementType="Argument">
+            <stringProp name="Argument.name">accessSecret_3</stringProp>
+            <stringProp name="Argument.value">ea48ffa4-2ecf-47e7-b44a-1f17561bcb7c</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accountId_3" elementType="Argument">
+            <stringProp name="Argument.name">accountId_3</stringProp>
+            <stringProp name="Argument.value">57f8cdf5-24c7-4306-b9f9-2b91e3b802a1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accountNumber_3" elementType="Argument">
+            <stringProp name="Argument.name">accountNumber_3</stringProp>
+            <stringProp name="Argument.value">2000000139</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accessId_4" elementType="Argument">
+            <stringProp name="Argument.name">accessId_4</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accessKey_4" elementType="Argument">
+            <stringProp name="Argument.name">accessKey_4</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accessSecret_4" elementType="Argument">
+            <stringProp name="Argument.name">accessSecret_4</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accountId_4" elementType="Argument">
+            <stringProp name="Argument.name">accountId_4</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="accountNumber_4" elementType="Argument">
+            <stringProp name="Argument.name">accountNumber_4</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="No.of Members acct details you want to use">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="TOTAL_MEMBERS" elementType="Argument">
+            <stringProp name="Argument.name">TOTAL_MEMBERS</stringProp>
+            <stringProp name="Argument.value">2</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="TOTAL_MERCHANTS" elementType="Argument">
+            <stringProp name="Argument.name">TOTAL_MERCHANTS</stringProp>
+            <stringProp name="Argument.value">2</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Debit_Express_ACH(existing Business Merchant)">
+        <intProp name="ThreadGroup.num_threads">2000</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="API  1_debit_Express_ACH(existing Business Merchant)">
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${baseUrl}/payment-processing/v1/ach/debit</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;processorTransactionId&quot;: &quot;${processorTransactionId_api8}&quot;,&#xd;
+  &quot;processorTransactionBatchId&quot;: &quot;123410001&quot;,&#xd;
+  &quot;shaHash&quot;: &quot;${shaHash_api8}&quot;,&#xd;
+  &quot;amount&quot;: ${amount_api8},&#xd;
+  &quot;paymentType&quot;: &quot;EXPRESS_ACH&quot;,&#xd;
+  &quot;payor&quot;: {&#xd;
+    &quot;accountNumber&quot;: &quot;400039986&quot;,&#xd;
+    &quot;bankAccountType&quot;: &quot;SAVINGS&quot;,&#xd;
+    &quot;name&quot;: &quot;${creditHolderName_api8}&quot;,&#xd;
+    &quot;routingNumber&quot;: &quot;101019644&quot;,&#xd;
+    &quot;address&quot;: {&#xd;
+      &quot;addressLineOne&quot;: &quot;House no.45 second floor, 5th cross.&quot;,&#xd;
+      &quot;addressLineTwo&quot;: &quot;123 Smith Street&quot;,&#xd;
+      &quot;city&quot;: &quot;Springfield&quot;,&#xd;
+      &quot;state&quot;: &quot;IL&quot;,&#xd;
+      &quot;postalCode&quot;: &quot;42701&quot;,&#xd;
+      &quot;countryCode&quot;: &quot;US&quot;&#xd;
+    },&#xd;
+    &quot;counterPartyType&quot;: &quot;BUSINESS&quot;&#xd;
+  }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Pre script" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">import org.apache.commons.codec.digest.HmacUtils
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.ThreadLocalRandom
+import java.util.UUID
+
+try {
+
+    // ==============================
+    // Timestamp &amp; Random values
+    // ==============================
+    def timestamp = System.currentTimeMillis()
+    def rnd = ThreadLocalRandom.current()
+    def randomSuffix = String.format(&quot;%04d&quot;, rnd.nextInt(10000))
+    def random4 = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 4).toUpperCase()
+
+    // ==============================
+    // Member configuration
+    // ==============================
+    def totalMembers = vars.get(&quot;TOTAL_MEMBERS&quot;)?.toInteger()
+    def memberPrefix = &quot;accessId_&quot;
+
+    if (!totalMembers || totalMembers &lt;= 0) {
+        log.error(&quot;TOTAL_MEMBERS is not set or invalid&quot;)
+        return
+    }
+
+    // ==============================
+    // Global counter for members (thread-safe)
+    // ==============================
+    if (!props.containsKey(&quot;GLOBAL_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_COUNTER&quot;, new AtomicInteger(0))
+    }
+
+    def counter = (props.get(&quot;GLOBAL_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+
+    // ==============================
+    // Detect actual members dynamically
+    // ==============================
+    def actualTotalMembers = 0
+    for (int i = 1; i &lt;= totalMembers; i++) {
+        if (vars.get(memberPrefix + i)) {
+            actualTotalMembers++
+        }
+    }
+
+    if (actualTotalMembers == 0) {
+        log.error(&quot;No member variables found!&quot;)
+        return
+    }
+
+    // ==============================
+    // Round-robin member selection
+    // ==============================
+    def memberIndex = ((counter - 1) % actualTotalMembers) + 1
+
+    // ==============================
+    // Fetch member variables
+    // ==============================
+    def accessId         = vars.get(&quot;accessId_&quot;      + memberIndex)
+    def accessKey        = vars.get(&quot;accessKey_&quot;     + memberIndex)
+    def accessSecret     = vars.get(&quot;accessSecret_&quot;  + memberIndex)
+    def accountId        = vars.get(&quot;accountId_&quot;     + memberIndex)
+    def accountNumber    = vars.get(&quot;accountNumber_&quot; + memberIndex)
+    def creditHolderName = vars.get(&quot;memberName&quot;     + memberIndex)
+
+    if (!accessId || !accessSecret || !accountId || !accountNumber) {
+        log.error(&quot;Missing credentials for member &quot; + memberIndex)
+        return
+    }
+
+    // ==============================
+    // Set member variables for request
+    // ==============================
+    vars.put(&quot;accessId&quot;,           accessId)
+    vars.put(&quot;accessKey&quot;,          accessKey)
+    vars.put(&quot;accessSecret&quot;,       accessSecret)
+    vars.put(&quot;requestorAccountId&quot;, accountId)
+    vars.put(&quot;accountNumber&quot;,      accountNumber)
+    vars.put(&quot;creditHolderName&quot;,   creditHolderName)
+
+    log.info(&quot;Using Member ${memberIndex}/${actualTotalMembers} | accessId=${accessId} | counter=${counter}&quot;)
+
+    // ==============================
+    // Merchant Round-Robin Selection
+    // ==============================
+    def totalMerchants = vars.get(&quot;TOTAL_MERCHANTS&quot;)?.toInteger()
+
+    if (!totalMerchants || totalMerchants &lt;= 0) {
+        log.error(&quot;TOTAL_MERCHANTS is not set or invalid&quot;)
+        return
+    }
+
+    // Global counter for merchants (thread-safe, separate from member counter)
+    if (!props.containsKey(&quot;GLOBAL_MERCHANT_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_MERCHANT_COUNTER&quot;, new AtomicInteger(0))
+    }
+
+    def merchantCounter = (props.get(&quot;GLOBAL_MERCHANT_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+    def merchantIndex = ((merchantCounter - 1) % totalMerchants) + 1
+
+    def selectedMerchant = vars.get(&quot;existing_businessMerchant_&quot; + merchantIndex)
+
+    if (!selectedMerchant) {
+        log.error(&quot;Merchant not found for index: &quot; + merchantIndex)
+        return
+    }
+
+    vars.put(&quot;creditHolderName_api8&quot;, selectedMerchant)
+
+    log.info(&quot;Using Merchant ${merchantIndex}/${totalMerchants} -&gt; ${selectedMerchant} | merchantCounter=${merchantCounter}&quot;)
+
+    // ==============================
+    // Random Amount
+    // ==============================
+    def amount = (rnd.nextInt(200) + 1).toString()
+    vars.put(&quot;amount_api8&quot;, amount)
+
+    log.info(&quot;Generated amount_api8 = &quot; + amount)
+
+    // ==============================
+    // Processor Transaction ID
+    // ==============================
+    def processorTransactionId = &quot;TXN_${timestamp}_${random4}_${randomSuffix}&quot;
+    vars.put(&quot;processorTransactionId_api8&quot;, processorTransactionId)
+
+    // ==============================
+    // SHA-256 HMAC generation
+    // ==============================
+    def inputString = &quot;${accountId}_${amount}_${accountNumber}_${processorTransactionId}&quot;
+    log.info(&quot;API8 SHA inputString: &quot; + inputString)
+
+    def shaHash = HmacUtils.hmacSha256Hex(accessSecret, inputString)
+    vars.put(&quot;shaHash_api8&quot;, shaHash)
+
+    log.info(&quot;SHA256 Generated Successfully&quot;)
+
+} catch (Exception e) {
+    log.error(&quot;Error in API8 Debit_express_ach (existing Business Merchant):&quot;, e)
+    throw e
+}</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="accessid" elementType="Header">
+                <stringProp name="Header.name">accessid</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="accesskey" elementType="Header">
+                <stringProp name="Header.name">accesskey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="accountid" elementType="Header">
+                <stringProp name="Header.name">accountid</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="false">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="accessid" elementType="Header">
+                <stringProp name="Header.name">accessid</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="accesskey" elementType="Header">
+                <stringProp name="Header.name">accesskey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="accountid" elementType="Header">
+                <stringProp name="Header.name">accountid</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Debit_standard_ACH(existing Individual Merchnant)">
+        <intProp name="ThreadGroup.num_threads">2000</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="API 2_debit_standard_ACH(existing Individual Merchant)" enabled="true">
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${baseUrl}/payment-processing/v1/ach/debit</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;processorTransactionId&quot;: &quot;${processorTransactionId_api9}&quot;,&#xd;
+  &quot;processorTransactionBatchId&quot;: &quot;123410001&quot;,&#xd;
+  &quot;shaHash&quot;: &quot;${shaHash_api9}&quot;,&#xd;
+  &quot;amount&quot;: ${amount_api9},&#xd;
+  &quot;paymentType&quot;: &quot;STANDARD_ACH&quot;,&#xd;
+  &quot;payor&quot;: {&#xd;
+    &quot;accountNumber&quot;: &quot;0000000400131660&quot;,&#xd;
+    &quot;bankAccountType&quot;: &quot;CHECKING&quot;,&#xd;
+    &quot;name&quot;: &quot;${creditHolderName_api9}&quot;,&#xd;
+    &quot;routingNumber&quot;: &quot;083900363&quot;,&#xd;
+    &quot;address&quot;: {&#xd;
+      &quot;addressLineOne&quot;: &quot;Apartment 4BwildStreeet&quot;,&#xd;
+      &quot;addressLineTwo&quot;: &quot;Apt 101&quot;,&#xd;
+      &quot;city&quot;: &quot;Springfield&quot;,&#xd;
+      &quot;state&quot;: &quot;IL&quot;,&#xd;
+      &quot;postalCode&quot;: &quot;62701&quot;,&#xd;
+      &quot;countryCode&quot;: &quot;US&quot;&#xd;
+    },&#xd;
+    &quot;counterPartyType&quot;: &quot;INDIVIDUAL&quot;&#xd;
+  }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Pre script" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">import org.apache.commons.codec.digest.HmacUtils
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.ThreadLocalRandom
+import java.util.UUID
+
+try {
+
+    // ==============================
+    // Timestamp &amp; Random values
+    // ==============================
+    def timestamp = System.currentTimeMillis()
+    def rnd = ThreadLocalRandom.current()
+    def randomSuffix = String.format(&quot;%04d&quot;, rnd.nextInt(10000))
+    def random4 = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 4).toUpperCase()
+
+    // ==============================
+    // Get total members
+    // ==============================
+    def totalMembers = vars.get(&quot;TOTAL_MEMBERS&quot;)?.toInteger()
+    def memberPrefix = &quot;accessId_&quot;
+
+    if (!totalMembers || totalMembers &lt;= 0) {
+        log.error(&quot;TOTAL_MEMBERS is not set or invalid&quot;)
+        return
+    }
+
+    // ==============================
+    // Global counter (thread-safe)
+    // ==============================
+    if (!props.containsKey(&quot;GLOBAL_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_COUNTER&quot;, new AtomicInteger(0))
+    }
+
+    def counter = (props.get(&quot;GLOBAL_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+
+    // ==============================
+    // Detect actual members dynamically
+    // ==============================
+    def actualTotalMembers = 0
+    for (int i = 1; i &lt;= totalMembers; i++) {
+        if (vars.get(memberPrefix + i)) {
+            actualTotalMembers++
+        }
+    }
+
+    if (actualTotalMembers == 0) {
+        log.error(&quot;No member variables found!&quot;)
+        return
+    }
+
+    // ==============================
+    // Round-robin member selection
+    // ==============================
+    def memberIndex = ((counter - 1) % actualTotalMembers) + 1
+
+    // ==============================
+    // Get member variables
+    // ==============================
+    def accessId = vars.get(&quot;accessId_&quot; + memberIndex)
+    def accessKey = vars.get(&quot;accessKey_&quot; + memberIndex)
+    def accessSecret = vars.get(&quot;accessSecret_&quot; + memberIndex)
+    def accountId = vars.get(&quot;accountId_&quot; + memberIndex)
+    def accountNumber = vars.get(&quot;accountNumber_&quot; + memberIndex)
+    def creditHolderName = vars.get(&quot;memberName&quot; + memberIndex)
+
+    if (!accessId || !accessSecret || !accountId || !accountNumber) {
+        log.error(&quot;Missing credentials for member &quot; + memberIndex)
+        return
+    }
+
+    // ==============================
+    // Set variables for request
+    // ==============================
+    vars.put(&quot;accessId&quot;, accessId)
+    vars.put(&quot;accessKey&quot;, accessKey)
+    vars.put(&quot;accessSecret&quot;, accessSecret)
+    vars.put(&quot;requestorAccountId&quot;, accountId)
+    vars.put(&quot;accountNumber&quot;, accountNumber)
+    vars.put(&quot;creditHolderName&quot;, creditHolderName)
+
+    log.info(&quot;Using Member ${memberIndex}/${actualTotalMembers} | accessId=${accessId} | counter=${counter}&quot;)
+
+    // Merchant Round-Robin Selection
+    // ==============================
+    def totalMerchants = vars.get(&quot;TOTAL_MERCHANTS&quot;)?.toInteger()
+
+    if (!totalMerchants || totalMerchants &lt;= 0) {
+        log.error(&quot;TOTAL_MERCHANTS is not set or invalid&quot;)
+        return
+    }
+
+    // Global counter for merchants (thread-safe, separate from member counter)
+    if (!props.containsKey(&quot;GLOBAL_MERCHANT_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_MERCHANT_COUNTER&quot;, new AtomicInteger(0))
+    }
+
+    def merchantCounter = (props.get(&quot;GLOBAL_MERCHANT_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+    def merchantIndex = ((merchantCounter - 1) % totalMerchants) + 1
+
+    def selectedMerchant = vars.get(&quot;existing_individualMerchant_&quot; + merchantIndex)
+
+    if (!selectedMerchant) {
+        log.error(&quot;Merchant not found for index: &quot; + merchantIndex)
+        return
+    }
+
+    vars.put(&quot;creditHolderName_api9&quot;, selectedMerchant)
+
+    log.info(&quot;Using Merchant ${merchantIndex}/${totalMerchants} -&gt; ${selectedMerchant} | merchantCounter=${merchantCounter}&quot;)
+
+
+    // ==============================
+    // Random Amount
+    // ==============================
+    def amount = (rnd.nextInt(300) + 1).toString()
+    vars.put(&quot;amount_api9&quot;, amount)
+    log.info(&quot;Generated amount_api9 = &quot; + amount)
+
+    // ==============================
+    // Processor Transaction ID
+    // ==============================
+    def processorTransactionId = &quot;TXN_${timestamp}_${random4}_${randomSuffix}&quot;
+    vars.put(&quot;processorTransactionId_api9&quot;, processorTransactionId)
+
+    // ==============================
+    // SHA-256 HMAC generation
+    // ==============================
+    def inputString = &quot;${accountId}_${amount}_${accountNumber}_${processorTransactionId}&quot;
+    log.info(&quot;API9 SHA inputString: &quot; + inputString)
+
+    def shaHash = HmacUtils.hmacSha256Hex(accessSecret, inputString)
+    vars.put(&quot;shaHash_api9&quot;, shaHash)
+
+    log.info(&quot;SHA256 Generated Successfully&quot;)
+
+} catch (Exception e) {
+    log.error(&quot;Error in API9 debit standard ach (existing Individual Merchant):&quot;, e)
+    throw e
+}
+</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="accessid" elementType="Header">
+                <stringProp name="Header.name">accessid</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="accesskey" elementType="Header">
+                <stringProp name="Header.name">accesskey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="accountid" elementType="Header">
+                <stringProp name="Header.name">accountid</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Credit_Express_ACH(existing Business Merchant)">
+        <intProp name="ThreadGroup.num_threads">2000</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="API 3_credit_Express_ACH(existing Business Merchant)" enabled="true">
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${baseUrl}/payment-processing/v1/ach/credit</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;processorTransactionId&quot;: &quot;${processorTransactionId_api3}&quot;,&#xd;
+  &quot;processorTransactionBatchId&quot;: &quot;123410001&quot;,&#xd;
+  &quot;shaHash&quot;: &quot;${shaHash_api3}&quot;,&#xd;
+  &quot;amount&quot;: &quot;${amount_api3}&quot;,&#xd;
+  &quot;paymentType&quot;: &quot;EXPRESS_ACH&quot;,&#xd;
+  &quot;receiver&quot;: {&#xd;
+    &quot;accountNumber&quot;: &quot;000400017508&quot;,&#xd;
+    &quot;bankAccountType&quot;: &quot;CHECKING&quot;,&#xd;
+    &quot;name&quot;: &quot;${creditHolderName_api3}&quot;,&#xd;
+    &quot;routingNumber&quot;: &quot;101019644&quot;,&#xd;
+    &quot;address&quot;: {&#xd;
+      &quot;addressLineOne&quot;: &quot;House no.45 second floor, 5th cross.&quot;,&#xd;
+      &quot;addressLineTwo&quot;: &quot;123 Smith Street&quot;,&#xd;
+      &quot;city&quot;: &quot;Springfield&quot;,&#xd;
+      &quot;state&quot;: &quot;IL&quot;,&#xd;
+      &quot;postalCode&quot;: &quot;42701&quot;,&#xd;
+      &quot;countryCode&quot;: &quot;US&quot;&#xd;
+    },&#xd;
+    &quot;counterPartyType&quot;: &quot;BUSINESS&quot;&#xd;
+  }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Pre script" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">import org.apache.commons.codec.digest.HmacUtils
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.ThreadLocalRandom
+import java.util.UUID
+
+try {
+
+    // ==============================
+    // Timestamp &amp; Random values
+    // ==============================
+    def timestamp = System.currentTimeMillis()
+    def rnd = ThreadLocalRandom.current()
+    def randomSuffix = String.format(&quot;%04d&quot;, rnd.nextInt(10000))
+    def random4 = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 4).toUpperCase()
+
+    // ==============================
+    // Total members
+    // ==============================
+    def totalMembers = vars.get(&quot;TOTAL_MEMBERS&quot;)?.toInteger()
+    def memberPrefix = &quot;accessId_&quot;
+
+    if (!totalMembers || totalMembers &lt;= 0) {
+        log.error(&quot;TOTAL_MEMBERS is not set or invalid&quot;)
+        return
+    }
+
+    // ==============================
+    // Global counter (thread-safe)
+    // ==============================
+    if (!props.containsKey(&quot;GLOBAL_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_COUNTER&quot;, new AtomicInteger(0))
+    }
+
+    def counter = (props.get(&quot;GLOBAL_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+
+    // ==============================
+    // Detect available members
+    // ==============================
+    def actualTotalMembers = 0
+    for (int i = 1; i &lt;= totalMembers; i++) {
+        if (vars.get(memberPrefix + i)) {
+            actualTotalMembers++
+        }
+    }
+
+    if (actualTotalMembers == 0) {
+        log.error(&quot;No member variables found!&quot;)
+        return
+    }
+
+    // ==============================
+    // Round-robin member selection
+    // ==============================
+    def memberIndex = ((counter - 1) % actualTotalMembers) + 1
+
+    // ==============================
+    // Fetch member variables
+    // ==============================
+    def accessId = vars.get(&quot;accessId_&quot; + memberIndex)
+    def accessKey = vars.get(&quot;accessKey_&quot; + memberIndex)
+    def accessSecret = vars.get(&quot;accessSecret_&quot; + memberIndex)
+    def accountId = vars.get(&quot;accountId_&quot; + memberIndex)
+    def accountNumber = vars.get(&quot;accountNumber_&quot; + memberIndex)
+    def creditHolderName = vars.get(&quot;memberName&quot; + memberIndex)
+
+    if (!accessId || !accessSecret || !accountId || !accountNumber) {
+        log.error(&quot;Missing credentials for member &quot; + memberIndex)
+        return
+    }
+
+    // ==============================
+    // Set request variables
+    // ==============================
+    vars.put(&quot;accessId&quot;, accessId)
+    vars.put(&quot;accessKey&quot;, accessKey)
+    vars.put(&quot;accessSecret&quot;, accessSecret)
+    vars.put(&quot;requestorAccountId&quot;, accountId)
+    vars.put(&quot;accountNumber&quot;, accountNumber)
+    vars.put(&quot;creditHolderName&quot;, creditHolderName)
+
+    log.info(&quot;Using Member ${memberIndex}/${actualTotalMembers} | accessId=${accessId} | counter=${counter}&quot;)
+    
+    // Merchant Round-Robin Selection
+    // ==============================
+    def totalMerchants = vars.get(&quot;TOTAL_MERCHANTS&quot;)?.toInteger()
+
+    if (!totalMerchants || totalMerchants &lt;= 0) {
+        log.error(&quot;TOTAL_MERCHANTS is not set or invalid&quot;)
+        return
+    }
+
+    // Global counter for merchants (thread-safe, separate from member counter)
+    if (!props.containsKey(&quot;GLOBAL_MERCHANT_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_MERCHANT_COUNTER&quot;, new AtomicInteger(0))
+    }
+
+    def merchantCounter = (props.get(&quot;GLOBAL_MERCHANT_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+    def merchantIndex = ((merchantCounter - 1) % totalMerchants) + 1
+
+    def selectedMerchant = vars.get(&quot;existing_businessMerchant_&quot; + merchantIndex)
+
+    if (!selectedMerchant) {
+        log.error(&quot;Merchant not found for index: &quot; + merchantIndex)
+        return
+    }
+
+    vars.put(&quot;creditHolderName_api3&quot;, selectedMerchant)
+
+    log.info(&quot;Using Merchant ${merchantIndex}/${totalMerchants} -&gt; ${selectedMerchant} | merchantCounter=${merchantCounter}&quot;)
+
+    // ==============================
+
+    // ==============================
+    // Random Amount
+    // ==============================
+    def amount = (rnd.nextInt(900) + 1).toString()
+    vars.put(&quot;amount_api3&quot;, amount)
+    log.info(&quot;Generated amount_api3 = &quot; + amount)
+
+    // ==============================
+    // Processor Transaction ID
+    // ==============================
+    def processorTransactionId = &quot;TXN_${timestamp}_${random4}_${randomSuffix}&quot;
+    vars.put(&quot;processorTransactionId_api3&quot;, processorTransactionId)
+
+    // ==============================
+    // SHA-256 HMAC generation
+    // ==============================
+    def inputString = &quot;${accountId}_${amount}_${accountNumber}_${processorTransactionId}&quot;
+    log.info(&quot;API3 SHA inputString: &quot; + inputString)
+
+    def shaHash = HmacUtils.hmacSha256Hex(accessSecret, inputString)
+    vars.put(&quot;shaHash_api3&quot;, shaHash)
+
+    log.info(&quot;SHA256 Generated Successfully&quot;)
+
+
+} catch (Exception e) {
+    log.error(&quot;Error in API3 credit express ach (existing Business Merchant):&quot;, e)
+    throw e
+}
+</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="accessId" elementType="Header">
+                <stringProp name="Header.name">accessId</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="accessKey" elementType="Header">
+                <stringProp name="Header.name">accessKey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="accountId" elementType="Header">
+                <stringProp name="Header.name">accountId</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Credit_Standard_ACH(existing Individual Merchant)">
+        <intProp name="ThreadGroup.num_threads">1000</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="API 4_credit_Standard_ACH(existing Individual Merchant)" enabled="true">
+          <stringProp name="HTTPSampler.domain">${baseUrl}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${baseUrl}/payment-processing/v1/ach/credit</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;processorTransactionId&quot;: &quot;${processorTransactionId_api4}&quot;,&#xd;
+  &quot;processorTransactionBatchId&quot;: &quot;123410001&quot;,&#xd;
+  &quot;shaHash&quot;: &quot;${shaHash_api4}&quot;,&#xd;
+  &quot;amount&quot;: &quot;${amount_api4}&quot;,&#xd;
+  &quot;paymentType&quot;: &quot;STANDARD_ACH&quot;,&#xd;
+  &quot;receiver&quot;: {&#xd;
+    &quot;accountNumber&quot;: &quot;400174765&quot;,&#xd;
+    &quot;bankAccountType&quot;: &quot;SAVINGS&quot;,&#xd;
+    &quot;name&quot;: &quot;${creditHolderName_api4}&quot;,&#xd;
+    &quot;routingNumber&quot;: &quot;083900363&quot;,&#xd;
+    &quot;address&quot;: {&#xd;
+      &quot;addressLineOne&quot;: &quot;Apartment 4BwildStreeet&quot;,&#xd;
+      &quot;addressLineTwo&quot;: &quot;Apt 101&quot;,&#xd;
+      &quot;city&quot;: &quot;Springfield&quot;,&#xd;
+      &quot;state&quot;: &quot;IL&quot;,&#xd;
+      &quot;postalCode&quot;: &quot;62701&quot;,&#xd;
+      &quot;countryCode&quot;: &quot;US&quot;&#xd;
+    },&#xd;
+    &quot;counterPartyType&quot;: &quot;INDIVIDUAL&quot;&#xd;
+  }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Pre script" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">import org.apache.commons.codec.digest.HmacUtils
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.ThreadLocalRandom
+import java.util.UUID
+
+try {
+
+    // ==============================
+    // Timestamp &amp; Random values
+    // ==============================
+    def timestamp = System.currentTimeMillis()
+    def rnd = ThreadLocalRandom.current()
+    def randomSuffix = String.format(&quot;%04d&quot;, rnd.nextInt(10000))
+    def random4 = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 4).toUpperCase()
+
+    // ==============================
+    // Total members
+    // ==============================
+    def totalMembers = vars.get(&quot;TOTAL_MEMBERS&quot;)?.toInteger()
+    def memberPrefix = &quot;accessId_&quot;
+
+    if (!totalMembers || totalMembers &lt;= 0) {
+        log.error(&quot;TOTAL_MEMBERS is not set or invalid&quot;)
+        return
+    }
+
+    // ==============================
+    // Global counter (thread-safe)
+    // ==============================
+    if (!props.containsKey(&quot;GLOBAL_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_COUNTER&quot;, new AtomicInteger(0))
+    }
+
+    def counter = (props.get(&quot;GLOBAL_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+
+    // ==============================
+    // Detect available members
+    // ==============================
+    def actualTotalMembers = 0
+    for (int i = 1; i &lt;= totalMembers; i++) {
+        if (vars.get(memberPrefix + i)) {
+            actualTotalMembers++
+        }
+    }
+
+    if (actualTotalMembers == 0) {
+        log.error(&quot;No member variables found!&quot;)
+        return
+    }
+
+    // ==============================
+    // Round-robin member selection
+    // ==============================
+    def memberIndex = ((counter - 1) % actualTotalMembers) + 1
+
+    // ==============================
+    // Fetch member variables
+    // ==============================
+    def accessId = vars.get(&quot;accessId_&quot; + memberIndex)
+    def accessKey = vars.get(&quot;accessKey_&quot; + memberIndex)
+    def accessSecret = vars.get(&quot;accessSecret_&quot; + memberIndex)
+    def accountId = vars.get(&quot;accountId_&quot; + memberIndex)
+    def accountNumber = vars.get(&quot;accountNumber_&quot; + memberIndex)
+    def creditHolderName = vars.get(&quot;memberName&quot; + memberIndex)
+
+    if (!accessId || !accessSecret || !accountId || !accountNumber) {
+        log.error(&quot;Missing credentials for member &quot; + memberIndex)
+        return
+    }
+
+    // ==============================
+    // Set request variables
+    // ==============================
+    vars.put(&quot;accessId&quot;, accessId)
+    vars.put(&quot;accessKey&quot;, accessKey)
+    vars.put(&quot;accessSecret&quot;, accessSecret)
+    vars.put(&quot;requestorAccountId&quot;, accountId)
+    vars.put(&quot;accountNumber&quot;, accountNumber)
+    vars.put(&quot;creditHolderName&quot;, creditHolderName)
+
+    log.info(&quot;Using Member ${memberIndex}/${actualTotalMembers} | accessId=${accessId} | counter=${counter}&quot;)
+
+        
+    // Merchant Round-Robin Selection
+    // ==============================
+    def totalMerchants = vars.get(&quot;TOTAL_MERCHANTS&quot;)?.toInteger()
+
+    if (!totalMerchants || totalMerchants &lt;= 0) {
+        log.error(&quot;TOTAL_MERCHANTS is not set or invalid&quot;)
+        return
+    }
+
+    // Global counter for merchants (thread-safe, separate from member counter)
+    if (!props.containsKey(&quot;GLOBAL_MERCHANT_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_MERCHANT_COUNTER&quot;, new AtomicInteger(0))
+    }
+
+    def merchantCounter = (props.get(&quot;GLOBAL_MERCHANT_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+    def merchantIndex = ((merchantCounter - 1) % totalMerchants) + 1
+
+    def selectedMerchant = vars.get(&quot;existing_individualMerchant_&quot; + merchantIndex)
+
+    if (!selectedMerchant) {
+        log.error(&quot;Merchant not found for index: &quot; + merchantIndex)
+        return
+    }
+
+    vars.put(&quot;creditHolderName_api4&quot;, selectedMerchant)
+
+    log.info(&quot;Using Merchant ${merchantIndex}/${totalMerchants} -&gt; ${selectedMerchant} | merchantCounter=${merchantCounter}&quot;)
+
+
+    // ==============================
+    // Random Amount
+    // ==============================
+    def amount = (rnd.nextInt(900) + 1).toString()
+    vars.put(&quot;amount_api4&quot;, amount)
+    log.info(&quot;Generated amount_api4 = &quot; + amount)
+
+    // ==============================
+    // Processor Transaction ID
+    // ==============================
+    def processorTransactionId = &quot;TXN_${timestamp}_${random4}_${randomSuffix}&quot;
+    vars.put(&quot;processorTransactionId_api4&quot;, processorTransactionId)
+
+    // ==============================
+    // SHA-256 HMAC generation
+    // ==============================
+    def inputString = &quot;${accountId}_${amount}_${accountNumber}_${processorTransactionId}&quot;
+    log.info(&quot;API4 SHA inputString: &quot; + inputString)
+
+    def shaHash = HmacUtils.hmacSha256Hex(accessSecret, inputString)
+    vars.put(&quot;shaHash_api4&quot;, shaHash)
+
+    log.info(&quot;SHA256 Generated Successfully&quot;)
+
+} catch (Exception e) {
+    log.error(&quot;Error in API4 credit standard ach (existing Individual Merchant):&quot;, e)
+    throw e
+}
+</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="accessId" elementType="Header">
+                <stringProp name="Header.name">accessId</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="accessKey" elementType="Header">
+                <stringProp name="Header.name">accessKey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="accountId" elementType="Header">
+                <stringProp name="Header.name">accountId</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Debit _Express_ACH(All new Individual merchants)">
+        <stringProp name="TestPlan.comments">For Every thread/request one New Individual merchant is created.</stringProp>
+        <intProp name="ThreadGroup.num_threads">500</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="API  5_debit_Express_ACH(New Individual Merchant)" enabled="true">
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${baseUrl}/payment-processing/v1/ach/debit</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;processorTransactionId&quot;: &quot;${processorTransactionId_api7}&quot;,&#xd;
+  &quot;processorTransactionBatchId&quot;: &quot;123410001&quot;,&#xd;
+  &quot;shaHash&quot;: &quot;${shaHash_api7}&quot;,&#xd;
+  &quot;amount&quot;: &quot;${amount_api7}&quot;,&#xd;
+  &quot;paymentType&quot;: &quot;EXPRESS_ACH&quot;,&#xd;
+  &quot;payor&quot;: {&#xd;
+    &quot;accountNumber&quot;: &quot;${dynamicAccountNumber}&quot;,&#xd;
+    &quot;bankAccountType&quot;: &quot;SAVINGS&quot;,&#xd;
+    &quot;name&quot;: &quot;${creditHolderName_api7}&quot;,&#xd;
+    &quot;routingNumber&quot;: &quot;125000105&quot;,&#xd;
+    &quot;address&quot;: {&#xd;
+      &quot;addressLineOne&quot;: &quot;102 Maple, AustinTheory&quot;,&#xd;
+      &quot;addressLineTwo&quot;: &quot;Xyza RoadoffTour&quot;,&#xd;
+      &quot;city&quot;: &quot;Africa&quot;,&#xd;
+      &quot;state&quot;: &quot;PA&quot;,&#xd;
+      &quot;postalCode&quot;: &quot;20701&quot;,&#xd;
+      &quot;countryCode&quot;: &quot;US&quot;&#xd;
+    },&#xd;
+    &quot;counterPartyType&quot;: &quot;INDIVIDUAL&quot;&#xd;
+  }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Pre script" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">import org.apache.commons.codec.digest.HmacUtils
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.ThreadLocalRandom
+import java.util.UUID
+import com.github.javafaker.Faker
+
+try {
+
+    // ==============================
+    // Timestamp &amp; Random values
+    // ==============================
+    def timestamp = System.currentTimeMillis()
+    def rnd = ThreadLocalRandom.current()
+    def randomSuffix = String.format(&quot;%04d&quot;, rnd.nextInt(10000))
+    def random4 = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 2).toUpperCase()
+    def random3 = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 3).toUpperCase()
+
+	// ==============================
+	// Generate Unique Account Number (Best of Both)
+	// ==============================
+	if (!props.containsKey(&quot;ACCOUNT_NUMBER_COUNTER&quot;)) {
+	    def runId = (System.currentTimeMillis() % 100000000).toInteger()  // Last 8 digits of timestamp
+	    def startNumber = 600000000 + runId
+	    props.put(&quot;ACCOUNT_NUMBER_COUNTER&quot;, new AtomicInteger(startNumber))
+	    log.info(&quot;Account counter initialized at: ${startNumber} for this test run&quot;)
+	}
+	
+	def accountCounter = (props.get(&quot;ACCOUNT_NUMBER_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+	def accountLength = 9 + rnd.nextInt(8)
+	def dynamicAccountNumber = String.format(&quot;%0${accountLength}d&quot;, accountCounter)
+	vars.put(&quot;dynamicAccountNumber&quot;, dynamicAccountNumber)
+
+    // ==============================
+    // Faker – company name
+    // ==============================
+    def faker = new Faker()
+    def fakeName = faker.company().name()
+
+    // ==============================
+    // Total members
+    // ==============================
+    def totalMembers = vars.get(&quot;TOTAL_MEMBERS&quot;)?.toInteger()
+    def memberPrefix = &quot;accessId_&quot;
+
+    if (!totalMembers || totalMembers &lt;= 0) {
+        log.error(&quot;TOTAL_MEMBERS is not set or invalid&quot;)
+        return
+    }
+
+    // ==============================
+    // Global counter (thread-safe)
+    // ==============================
+    if (!props.containsKey(&quot;GLOBAL_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_COUNTER&quot;, new AtomicInteger(0))
+    }
+
+    def counter = (props.get(&quot;GLOBAL_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+
+    // ==============================
+    // Detect available members
+    // ==============================
+    def actualTotalMembers = 0
+    for (int i = 1; i &lt;= totalMembers; i++) {
+        if (vars.get(memberPrefix + i)) {
+            actualTotalMembers++
+        }
+    }
+
+    if (actualTotalMembers == 0) {
+        log.error(&quot;No member variables found!&quot;)
+        return
+    }
+
+    // ==============================
+    // Round-robin member selection
+    // ==============================
+    def memberIndex = ((counter - 1) % actualTotalMembers) + 1
+
+    // ==============================
+    // Fetch member variables
+    // ==============================
+    def accessId = vars.get(&quot;accessId_&quot; + memberIndex)
+    def accessKey = vars.get(&quot;accessKey_&quot; + memberIndex)
+    def accessSecret = vars.get(&quot;accessSecret_&quot; + memberIndex)
+    def accountId = vars.get(&quot;accountId_&quot; + memberIndex)
+    def accountNumber = vars.get(&quot;accountNumber_&quot; + memberIndex)
+    def creditHolderName = vars.get(&quot;memberName&quot; + memberIndex)
+
+    if (!accessId || !accessSecret || !accountId || !accountNumber) {
+        log.error(&quot;Missing credentials for member &quot; + memberIndex)
+        return
+    }
+
+    // ==============================
+    // Set request variables
+    // ==============================
+    vars.put(&quot;accessId&quot;, accessId)
+    vars.put(&quot;accessKey&quot;, accessKey)
+    vars.put(&quot;accessSecret&quot;, accessSecret)
+    vars.put(&quot;requestorAccountId&quot;, accountId)
+    vars.put(&quot;accountNumber&quot;, accountNumber)
+    vars.put(&quot;creditHolderName&quot;, creditHolderName)
+
+    log.info(&quot;Using Member ${memberIndex}/${actualTotalMembers} | accessId=${accessId} | counter=${counter}&quot;)
+
+    // ==============================
+    // Random Amount
+    // ==============================
+    def amount = (rnd.nextInt(500) + 1).toString()
+    vars.put(&quot;amount_api7&quot;, amount)
+
+    // ==============================
+    // Processor Transaction ID
+    // ==============================
+    def processorTransactionId = &quot;TXN_${timestamp}_${random4}_${randomSuffix}&quot;
+    vars.put(&quot;processorTransactionId_api7&quot;, processorTransactionId)
+
+    // ==============================
+    // SHA-256 HMAC generation
+    // ==============================
+    def inputString = &quot;${accountId}_${amount}_${accountNumber}_${processorTransactionId}&quot;
+    log.info(&quot;API7 SHA inputString: &quot; + inputString)
+
+    def shaHash = HmacUtils.hmacSha256Hex(accessSecret, inputString)
+    vars.put(&quot;shaHash_api7&quot;, shaHash)
+
+    // ==============================
+    // New Merchant Name
+    // ==============================
+    def cleanName = fakeName.replaceAll(&quot;[^a-zA-Z0-9 ]&quot;, &quot;&quot;)
+    vars.put(&quot;creditHolderName_api7&quot;, &quot;${cleanName}_${random4}_${random3}&quot;)
+
+} catch (Exception e) {
+    log.error(&quot;Error in API7 debit express ach (all New Merchants):&quot;, e)
+    throw e
+}
+</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accessid</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accesskey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accountid</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Debit _Standard_ACH(All new Business merchants)">
+        <stringProp name="TestPlan.comments">For Every thread/request one New Business merchant is created.</stringProp>
+        <intProp name="ThreadGroup.num_threads">500</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="API  6_debit_Standard_ACH(New Business Merchant)" enabled="true">
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${baseUrl}/payment-processing/v1/ach/debit</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;processorTransactionId&quot;: &quot;${processorTransactionId_api6}&quot;,&#xd;
+  &quot;processorTransactionBatchId&quot;: &quot;123410001&quot;,&#xd;
+  &quot;shaHash&quot;: &quot;${shaHash_api6}&quot;,&#xd;
+  &quot;amount&quot;: &quot;${amount_api6}&quot;,&#xd;
+  &quot;paymentType&quot;: &quot;STANDARD_ACH&quot;,&#xd;
+  &quot;payor&quot;: {&#xd;
+    &quot;accountNumber&quot;: &quot;${dynamicAccountNumber}&quot;,&#xd;
+    &quot;bankAccountType&quot;: &quot;CHECKING&quot;,&#xd;
+    &quot;name&quot;: &quot;${creditHolderName_api6}&quot;,&#xd;
+    &quot;routingNumber&quot;: &quot;101019644&quot;,&#xd;
+    &quot;address&quot;: {&#xd;
+      &quot;addressLineOne&quot;: &quot;456 Elm St, Grand Rapids&quot;,&#xd;
+      &quot;addressLineTwo&quot;: &quot;22St Mary’s Road&quot;,&#xd;
+      &quot;city&quot;: &quot;France&quot;,&#xd;
+      &quot;state&quot;: &quot;ID&quot;,&#xd;
+      &quot;postalCode&quot;: &quot;90701&quot;,&#xd;
+      &quot;countryCode&quot;: &quot;US&quot;&#xd;
+    },&#xd;
+    &quot;counterPartyType&quot;: &quot;BUSINESS&quot;&#xd;
+  }&#xd;
+}&#xd;
+</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="accessId" elementType="Header">
+                <stringProp name="Header.name">accessId</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="accessKey" elementType="Header">
+                <stringProp name="Header.name">accessKey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="accountId" elementType="Header">
+                <stringProp name="Header.name">accountId</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Pre script" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">import org.apache.commons.codec.digest.HmacUtils
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.ThreadLocalRandom
+import java.util.UUID
+import com.github.javafaker.Faker
+
+try {
+
+    // ==============================
+    // Timestamp &amp; Random values
+    // ==============================
+    def timestamp = System.currentTimeMillis()
+    def rnd = ThreadLocalRandom.current()
+    def randomSuffix = String.format(&quot;%04d&quot;, rnd.nextInt(10000))
+    def random4 = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 4).toUpperCase()
+    def random2 = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 2).toUpperCase()
+
+	// ==============================
+	// Generate Unique Account Number (Best of Both)
+	// ==============================
+	if (!props.containsKey(&quot;ACCOUNT_NUMBER_COUNTER&quot;)) {
+	    def runId = (System.currentTimeMillis() % 100000000).toInteger()  // Last 8 digits of timestamp
+	    def startNumber = 600000000 + runId
+	    props.put(&quot;ACCOUNT_NUMBER_COUNTER&quot;, new AtomicInteger(startNumber))
+	    log.info(&quot;Account counter initialized at: ${startNumber} for this test run&quot;)
+	}
+	
+	def accountCounter = (props.get(&quot;ACCOUNT_NUMBER_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+	def accountLength = 9 + rnd.nextInt(8)
+	def dynamicAccountNumber = String.format(&quot;%0${accountLength}d&quot;, accountCounter)
+	vars.put(&quot;dynamicAccountNumber&quot;, dynamicAccountNumber)
+
+    // ==============================
+    // Faker – company name
+    // ==============================
+    def faker = new Faker()
+    def fakeName = faker.company().name()
+
+    // ==============================
+    // Total members
+    // ==============================
+    def totalMembers = vars.get(&quot;TOTAL_MEMBERS&quot;)?.toInteger()
+    def memberPrefix = &quot;accessId_&quot;
+
+    if (!totalMembers || totalMembers &lt;= 0) {
+        log.error(&quot;TOTAL_MEMBERS is not set or invalid&quot;)
+        return
+    }
+
+    // ==============================
+    // Global counter (thread-safe)
+    // ==============================
+    if (!props.containsKey(&quot;GLOBAL_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_COUNTER&quot;, new AtomicInteger(0))
+    }
+
+    def counter = (props.get(&quot;GLOBAL_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+
+    // ==============================
+    // Detect available members
+    // ==============================
+    def actualTotalMembers = 0
+    for (int i = 1; i &lt;= totalMembers; i++) {
+        if (vars.get(memberPrefix + i)) {
+            actualTotalMembers++
+        }
+    }
+
+    if (actualTotalMembers == 0) {
+        log.error(&quot;No member variables found!&quot;)
+        return
+    }
+
+    // ==============================
+    // Round-robin member selection
+    // ==============================
+    def memberIndex = ((counter - 1) % actualTotalMembers) + 1
+
+    // ==============================
+    // Fetch member variables
+    // ==============================
+    def accessId = vars.get(&quot;accessId_&quot; + memberIndex)
+    def accessKey = vars.get(&quot;accessKey_&quot; + memberIndex)
+    def accessSecret = vars.get(&quot;accessSecret_&quot; + memberIndex)
+    def accountId = vars.get(&quot;accountId_&quot; + memberIndex)
+    def accountNumber = vars.get(&quot;accountNumber_&quot; + memberIndex)
+    def creditHolderName = vars.get(&quot;memberName&quot; + memberIndex)
+
+    if (!accessId || !accessSecret || !accountId || !accountNumber) {
+        log.error(&quot;Missing credentials for member &quot; + memberIndex)
+        return
+    }
+
+    // ==============================
+    // Set request variables
+    // ==============================
+    vars.put(&quot;accessId&quot;, accessId)
+    vars.put(&quot;accessKey&quot;, accessKey)
+    vars.put(&quot;accessSecret&quot;, accessSecret)
+    vars.put(&quot;requestorAccountId&quot;, accountId)
+    vars.put(&quot;accountNumber&quot;, accountNumber)
+    vars.put(&quot;creditHolderName&quot;, creditHolderName)
+
+    log.info(&quot;Using Member ${memberIndex}/${actualTotalMembers} | accessId=${accessId} | counter=${counter}&quot;)
+
+    // ==============================
+    // Random Amount
+    // ==============================
+    def amount = (rnd.nextInt(600) + 1).toString()
+    vars.put(&quot;amount_api6&quot;, amount)
+
+    // ==============================
+    // Processor Transaction ID
+    // ==============================
+    def processorTransactionId = &quot;TXN_${timestamp}_${random4}_${randomSuffix}&quot;
+    vars.put(&quot;processorTransactionId_api6&quot;, processorTransactionId)
+
+    // ==============================
+    // SHA-256 HMAC generation
+    // ==============================
+    def inputString = &quot;${accountId}_${amount}_${accountNumber}_${processorTransactionId}&quot;
+    log.info(&quot;API6 SHA inputString: &quot; + inputString)
+
+    def shaHash = HmacUtils.hmacSha256Hex(accessSecret, inputString)
+    vars.put(&quot;shaHash_api6&quot;, shaHash)
+
+    // ==============================
+    // New Merchant Name
+    // ==============================
+    def cleanName = fakeName.replaceAll(&quot;[^a-zA-Z0-9 ]&quot;, &quot;&quot;)
+    vars.put(&quot;creditHolderName_api6&quot;, &quot;${cleanName}_${randomSuffix}_${random2}&quot;)
+
+} catch (Exception e) {
+    log.error(&quot;Error in API6 debit standard ach (all New Merchants):&quot;, e)
+    throw e
+}
+</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Credit _Standard_ACH(All Individual new merchants)">
+        <stringProp name="TestPlan.comments">For Every thread/request one New Individual merchant is created.</stringProp>
+        <intProp name="ThreadGroup.num_threads">500</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="API  7_credit_Standard_ACH(New Individual Merchant)" enabled="true">
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${baseUrl}/payment-processing/v1/ach/credit</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;processorTransactionId&quot;: &quot;${processorTransactionId_api1}&quot;,&#xd;
+  &quot;processorTransactionBatchId&quot;: &quot;123410001&quot;,&#xd;
+  &quot;shaHash&quot;: &quot;${shaHash_api1}&quot;,&#xd;
+  &quot;amount&quot;: &quot;${amount_api1}&quot;,&#xd;
+  &quot;paymentType&quot;: &quot;STANDARD_ACH&quot;,&#xd;
+  &quot;receiver&quot;: {&#xd;
+    &quot;accountNumber&quot;: &quot;${dynamicAccountNumber}&quot;,&#xd;
+    &quot;bankAccountType&quot;: &quot;SAVINGS&quot;,&#xd;
+    &quot;name&quot;: &quot;${creditHolderName_api1}&quot;,&#xd;
+    &quot;routingNumber&quot;: &quot;075000022&quot;,&#xd;
+    &quot;address&quot;: {&#xd;
+      &quot;addressLineOne&quot;: &quot;133 Macdougal Speru&quot;,&#xd;
+      &quot;addressLineTwo&quot;: &quot;380 Harrogate Road&quot;,&#xd;
+      &quot;city&quot;: &quot;Florida&quot;,&#xd;
+      &quot;state&quot;: &quot;AZ&quot;,&#xd;
+      &quot;postalCode&quot;: &quot;62701&quot;,&#xd;
+      &quot;countryCode&quot;: &quot;US&quot;&#xd;
+    },&#xd;
+    &quot;counterPartyType&quot;: &quot;INDIVIDUAL&quot;&#xd;
+  }&#xd;
+}&#xd;
+</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Pre Script" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">import org.apache.commons.codec.digest.HmacUtils
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.ThreadLocalRandom
+import java.util.UUID
+import com.github.javafaker.Faker
+
+try {
+
+    // ==============================
+    // Timestamp &amp; Random values
+    // ==============================
+    def timestamp = System.currentTimeMillis()
+    def rnd = ThreadLocalRandom.current()
+    def randomSuffix = String.format(&quot;%04d&quot;, rnd.nextInt(10000))
+    def random3a = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 3).toUpperCase()
+    def random3b = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 3).toUpperCase()
+
+	 // ==============================
+	// Generate Unique Account Number (Best of Both)
+	// ==============================
+	if (!props.containsKey(&quot;ACCOUNT_NUMBER_COUNTER&quot;)) {
+	    def runId = (System.currentTimeMillis() % 100000000).toInteger()  // Last 8 digits of timestamp
+	    def startNumber = 600000000 + runId
+	    props.put(&quot;ACCOUNT_NUMBER_COUNTER&quot;, new AtomicInteger(startNumber))
+	    log.info(&quot;Account counter initialized at: ${startNumber} for this test run&quot;)
+	}
+	
+	def accountCounter = (props.get(&quot;ACCOUNT_NUMBER_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+	def accountLength = 9 + rnd.nextInt(8)
+	def dynamicAccountNumber = String.format(&quot;%0${accountLength}d&quot;, accountCounter)
+	vars.put(&quot;dynamicAccountNumber&quot;, dynamicAccountNumber)
+
+    // ==============================
+    // Faker – person name
+    // ==============================
+    def faker = new Faker()
+    def fakeName = faker.name().fullName()
+
+    // ==============================
+    // Total members
+    // ==============================
+    def totalMembers = vars.get(&quot;TOTAL_MEMBERS&quot;)?.toInteger()
+    def memberPrefix = &quot;accessId_&quot;
+
+    if (!totalMembers || totalMembers &lt;= 0) {
+        log.error(&quot;TOTAL_MEMBERS is not set or invalid&quot;)
+        return
+    }
+
+    // ==============================
+    // Global counter (thread-safe)
+    // ==============================
+    if (!props.containsKey(&quot;GLOBAL_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_COUNTER&quot;, new AtomicInteger(0))
+    }
+
+    def counter = (props.get(&quot;GLOBAL_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+
+    // ==============================
+    // Detect available members
+    // ==============================
+    def actualTotalMembers = 0
+    for (int i = 1; i &lt;= totalMembers; i++) {
+        if (vars.get(memberPrefix + i)) {
+            actualTotalMembers++
+        }
+    }
+
+    if (actualTotalMembers == 0) {
+        log.error(&quot;No member variables found!&quot;)
+        return
+    }
+
+    // ==============================
+    // Round-robin member selection
+    // ==============================
+    def memberIndex = ((counter - 1) % actualTotalMembers) + 1
+
+    // ==============================
+    // Fetch member variables
+    // ==============================
+    def accessId = vars.get(&quot;accessId_&quot; + memberIndex)
+    def accessKey = vars.get(&quot;accessKey_&quot; + memberIndex)
+    def accessSecret = vars.get(&quot;accessSecret_&quot; + memberIndex)
+    def accountId = vars.get(&quot;accountId_&quot; + memberIndex)
+    def accountNumber = vars.get(&quot;accountNumber_&quot; + memberIndex)
+    def creditHolderName = vars.get(&quot;memberName&quot; + memberIndex)
+
+    if (!accessId || !accessSecret || !accountId || !accountNumber) {
+        log.error(&quot;Missing credentials for member &quot; + memberIndex)
+        return
+    }
+
+    // ==============================
+    // Set request variables
+    // ==============================
+    vars.put(&quot;accessId&quot;, accessId)
+    vars.put(&quot;accessKey&quot;, accessKey)
+    vars.put(&quot;accessSecret&quot;, accessSecret)
+    vars.put(&quot;requestorAccountId&quot;, accountId)
+    vars.put(&quot;accountNumber&quot;, accountNumber)
+    vars.put(&quot;creditHolderName&quot;, creditHolderName)
+
+    log.info(&quot;Using Member ${memberIndex}/${actualTotalMembers} | accessId=${accessId} | counter=${counter}&quot;)
+
+    // ==============================
+    // Random Amount
+    // ==============================
+    def amount = (rnd.nextInt(700) + 1).toString()
+    vars.put(&quot;amount_api1&quot;, amount)
+
+    // ==============================
+    // Processor Transaction ID
+    // ==============================
+    def processorTransactionId = &quot;TXN_${timestamp}_${random3a}_${randomSuffix}&quot;
+    vars.put(&quot;processorTransactionId_api1&quot;, processorTransactionId)
+
+    // ==============================
+    // SHA-256 HMAC generation
+    // ==============================
+    def inputString = &quot;${accountId}_${amount}_${accountNumber}_${processorTransactionId}&quot;
+    log.info(&quot;API1 SHA inputString: &quot; + inputString)
+
+    def shaHash = HmacUtils.hmacSha256Hex(accessSecret, inputString)
+    vars.put(&quot;shaHash_api1&quot;, shaHash)
+
+    // ==============================
+    // New Merchant Name
+    // ==============================
+    def cleanName = fakeName.replaceAll(&quot;[^a-zA-Z0-9 ]&quot;, &quot;&quot;)
+    vars.put(&quot;creditHolderName_api1&quot;, &quot;${cleanName}_${randomSuffix}_${random3b}&quot;)
+
+} catch (Exception e) {
+    log.error(&quot;Error in API1 credit standard ach (all New Merchants):&quot;, e)
+    throw e
+}
+</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accessId</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accessKey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accountId</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Credit _Express_ACH(All Business new merchants)">
+        <stringProp name="TestPlan.comments">For Every thread/request one New business merchant is created.</stringProp>
+        <intProp name="ThreadGroup.num_threads">500</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="API  8_credit_Express_ACH(New Business Merchant)" enabled="true">
+          <stringProp name="HTTPSampler.domain">${baseUrl}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${baseUrl}/payment-processing/v1/ach/credit</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;processorTransactionId&quot;: &quot;${processorTransactionId_api2}&quot;,&#xd;
+  &quot;processorTransactionBatchId&quot;: &quot;123410001&quot;,&#xd;
+  &quot;shaHash&quot;: &quot;${shaHash_api2}&quot;,&#xd;
+  &quot;amount&quot;: &quot;${amount_api2}&quot;,&#xd;
+  &quot;paymentType&quot;: &quot;EXPRESS_ACH&quot;,&#xd;
+  &quot;receiver&quot;: {&#xd;
+    &quot;accountNumber&quot;: &quot;${dynamicAccountNumber}&quot;,&#xd;
+    &quot;bankAccountType&quot;: &quot;CHECKING&quot;,&#xd;
+    &quot;name&quot;: &quot;${creditHolderName_api2}&quot;,&#xd;
+    &quot;routingNumber&quot;: &quot;114017714&quot;,&#xd;
+    &quot;address&quot;: {&#xd;
+      &quot;addressLineOne&quot;: &quot;chruch Street56 Apartment 4&quot;,&#xd;
+      &quot;addressLineTwo&quot;: &quot;22St Mary’s Road&quot;,&#xd;
+      &quot;city&quot;: &quot;Germany&quot;,&#xd;
+      &quot;state&quot;: &quot;CA&quot;,&#xd;
+      &quot;postalCode&quot;: &quot;60701&quot;,&#xd;
+      &quot;countryCode&quot;: &quot;US&quot;&#xd;
+    },&#xd;
+    &quot;counterPartyType&quot;: &quot;BUSINESS&quot;&#xd;
+  }&#xd;
+}&#xd;
+</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Pre script" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">import org.apache.commons.codec.digest.HmacUtils
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.ThreadLocalRandom
+import java.util.UUID
+import com.github.javafaker.Faker
+
+try {
+
+    // ==============================
+    // Timestamp &amp; Random values
+    // ==============================
+    def timestamp = System.currentTimeMillis()
+    def rnd = ThreadLocalRandom.current()
+    def randomSuffix = String.format(&quot;%04d&quot;, rnd.nextInt(10000))
+    def random3a = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 3).toUpperCase()
+    def random3b = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 3).toUpperCase()
+
+    	// ==============================
+ 	// Generate Unique Account Number (Best of Both)
+	// ==============================
+	if (!props.containsKey(&quot;ACCOUNT_NUMBER_COUNTER&quot;)) {
+	    def runId = (System.currentTimeMillis() % 100000000).toInteger()  // Last 8 digits of timestamp
+	    def startNumber = 600000000 + runId
+	    props.put(&quot;ACCOUNT_NUMBER_COUNTER&quot;, new AtomicInteger(startNumber))
+	    log.info(&quot;Account counter initialized at: ${startNumber} for this test run&quot;)
+	}
+
+	def accountCounter = (props.get(&quot;ACCOUNT_NUMBER_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+	def accountLength = 9 + rnd.nextInt(8)
+	def dynamicAccountNumber = String.format(&quot;%0${accountLength}d&quot;, accountCounter)
+	vars.put(&quot;dynamicAccountNumber&quot;, dynamicAccountNumber)
+
+    // ==============================
+    // Faker – person name
+    // ==============================
+    def faker = new Faker()
+    def fakeName = faker.name().fullName()
+
+    // ==============================
+    // Total members
+    // ==============================
+    def totalMembers = vars.get(&quot;TOTAL_MEMBERS&quot;)?.toInteger()
+    def memberPrefix = &quot;accessId_&quot;
+
+    if (!totalMembers || totalMembers &lt;= 0) {
+        log.error(&quot;TOTAL_MEMBERS is not set or invalid&quot;)
+        return
+    }
+
+    // ==============================
+    // Global counter (thread-safe)
+    // ==============================
+    if (!props.containsKey(&quot;GLOBAL_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_COUNTER&quot;, new AtomicInteger(0))
+    }
+
+    def counter = (props.get(&quot;GLOBAL_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+
+    // ==============================
+    // Detect available members
+    // ==============================
+    def actualTotalMembers = 0
+    for (int i = 1; i &lt;= totalMembers; i++) {
+        if (vars.get(memberPrefix + i)) {
+            actualTotalMembers++
+        }
+    }
+
+    if (actualTotalMembers == 0) {
+        log.error(&quot;No member variables found!&quot;)
+        return
+    }
+
+    // ==============================
+    // Round-robin member selection
+    // ==============================
+    def memberIndex = ((counter - 1) % actualTotalMembers) + 1
+
+    // ==============================
+    // Fetch member variables
+    // ==============================
+    def accessId = vars.get(&quot;accessId_&quot; + memberIndex)
+    def accessKey = vars.get(&quot;accessKey_&quot; + memberIndex)
+    def accessSecret = vars.get(&quot;accessSecret_&quot; + memberIndex)
+    def accountId = vars.get(&quot;accountId_&quot; + memberIndex)
+    def accountNumber = vars.get(&quot;accountNumber_&quot; + memberIndex)
+    def creditHolderName = vars.get(&quot;memberName&quot; + memberIndex)
+
+    if (!accessId || !accessSecret || !accountId || !accountNumber) {
+        log.error(&quot;Missing credentials for member &quot; + memberIndex)
+        return
+    }
+
+    // ==============================
+    // Set request variables
+    // ==============================
+    vars.put(&quot;accessId&quot;, accessId)
+    vars.put(&quot;accessKey&quot;, accessKey)
+    vars.put(&quot;accessSecret&quot;, accessSecret)
+    vars.put(&quot;requestorAccountId&quot;, accountId)
+    vars.put(&quot;accountNumber&quot;, accountNumber)
+    vars.put(&quot;creditHolderName&quot;, creditHolderName)
+
+    log.info(&quot;Using Member ${memberIndex}/${actualTotalMembers} | accessId=${accessId} | counter=${counter}&quot;)
+
+    // ==============================
+    // Random Amount
+    // ==============================
+    def amount = (rnd.nextInt(900) + 1).toString()
+    vars.put(&quot;amount_api2&quot;, amount)
+
+    // ==============================
+    // Processor Transaction ID
+    // ==============================
+    def processorTransactionId = &quot;TXN_${timestamp}_${random3a}_${randomSuffix}&quot;
+    vars.put(&quot;processorTransactionId_api2&quot;, processorTransactionId)
+
+    // ==============================
+    // SHA-256 HMAC generation
+    // ==============================
+    def inputString = &quot;${accountId}_${amount}_${accountNumber}_${processorTransactionId}&quot;
+    log.info(&quot;API2 SHA inputString: &quot; + inputString)
+
+    def shaHash = HmacUtils.hmacSha256Hex(accessSecret, inputString)
+    vars.put(&quot;shaHash_api2&quot;, shaHash)
+
+    // ==============================
+    // New Merchant Name
+    // ==============================
+    def cleanName = fakeName.replaceAll(&quot;[^a-zA-Z0-9 ]&quot;, &quot;&quot;)
+    vars.put(&quot;creditHolderName_api2&quot;, &quot;${cleanName}_${random3b}&quot;)
+
+} catch (Exception e) {
+    log.error(&quot;Error in API2 credit express ach (all New Merchants):&quot;, e)
+    throw e
+}
+</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accessId</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accessKey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accountId</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>true</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+                <sentBytes>true</sentBytes>
+                <url>true</url>
+                <threadCounts>true</threadCounts>
+                <idleTime>true</idleTime>
+                <connectTime>true</connectTime>
+              </value>
+            </objProp>
+            <stringProp name="filename"></stringProp>
+          </ResultCollector>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Debit _Stanandard_ACH(New IndividualMerchant Hit once)" enabled="false">
+        <stringProp name="TestPlan.comments">same counterparty info in all threads (merchant onboarding on first hit) the rest of the threads use this onboarded merchant.</stringProp>
+        <intProp name="ThreadGroup.num_threads">500</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="API  9_debit_standard_Ach( new Merchant hit at once)" enabled="true">
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${baseUrl}/payment-processing/v1/ach/debit</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;processorTransactionId&quot;: &quot;${processorTransactionId_api10}&quot;,&#xd;
+  &quot;processorTransactionBatchId&quot;: &quot;123410001&quot;,&#xd;
+  &quot;shaHash&quot;: &quot;${shaHash_api10}&quot;,&#xd;
+  &quot;amount&quot;: &quot;${amount_api10}&quot;,&#xd;
+  &quot;paymentType&quot;: &quot;STANDARD_ACH&quot;,&#xd;
+  &quot;payor&quot;: {&#xd;
+    &quot;accountNumber&quot;: &quot;0112345678&quot;,&#xd;
+    &quot;bankAccountType&quot;: &quot;SAVINGS&quot;,&#xd;
+    &quot;name&quot;: &quot;${creditHolderName_api10}&quot;,&#xd;
+    &quot;routingNumber&quot;: &quot;124302150&quot;,&#xd;
+    &quot;address&quot;: {&#xd;
+      &quot;addressLineOne&quot;: &quot;Cherry Hill Road, Seattle&quot;,&#xd;
+      &quot;addressLineTwo&quot;: &quot;512 Birch Street&quot;,&#xd;
+      &quot;city&quot;: &quot;India&quot;,&#xd;
+      &quot;state&quot;: &quot;MI&quot;,&#xd;
+      &quot;postalCode&quot;: &quot;62701&quot;,&#xd;
+      &quot;countryCode&quot;: &quot;US&quot;&#xd;
+    },&#xd;
+    &quot;counterPartyType&quot;: &quot;INDIVIDUAL&quot;&#xd;
+  }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="pre Script" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">import org.apache.commons.codec.digest.HmacUtils
+import java.util.Random
+import java.util.concurrent.atomic.AtomicInteger
+
+try {
+    // Timestamp &amp; random suffix
+    def timestamp = System.currentTimeMillis()
+    def randomSuffix = String.format(&quot;%04d&quot;, new Random().nextInt(10000))
+    def random4 = UUID.randomUUID().toString().replaceAll(&quot;-&quot;, &quot;&quot;).substring(0, 4).toUpperCase()
+
+     //Get Total no.of member account users
+    def totalMembers =  vars.get(&quot;TOTAL_MEMBERS&quot;).toInteger()
+    def memberPrefix = &quot;accessId_&quot;       
+
+
+    // Initialize a global counter
+    if (!props.containsKey(&quot;GLOBAL_COUNTER&quot;)) {
+    props.put(&quot;GLOBAL_COUNTER&quot;, new AtomicInteger(0))
+     }
+
+    // Increment counter
+    def counter = (props.get(&quot;GLOBAL_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+
+   // Detect total members dynamically (if some variables are missing)
+   def actualTotalMembers = 0
+   
+   for (int i = 1; i &lt;= totalMembers; i++) {
+    if (vars.get(&quot;${memberPrefix}${i}&quot;)) actualTotalMembers++
+    }
+    
+    if (actualTotalMembers == 0) {
+    log.error(&quot;No member variables found!&quot;)
+    return
+    }
+
+    // Calculate member index (1..actualTotalMembers)
+    def memberIndex = counter % actualTotalMembers
+    if (memberIndex == 0) memberIndex = actualTotalMembers
+
+   // Get member variables
+    def accessId = vars.get(&quot;accessId_${memberIndex}&quot;)
+    def accessKey = vars.get(&quot;accessKey_${memberIndex}&quot;)
+    def accessSecret = vars.get(&quot;accessSecret_${memberIndex}&quot;)
+    def accountId = vars.get(&quot;accountId_${memberIndex}&quot;)
+    def accountNumber = vars.get(&quot;accountNumber_${memberIndex}&quot;)
+    def creditHolderName = vars.get(&quot;memberName${memberIndex}&quot;)
+
+    // Set variables for the request header
+    vars.put(&quot;accessId&quot;, accessId)
+    vars.put(&quot;accessKey&quot;, accessKey)
+    vars.put(&quot;accessSecret&quot;, accessSecret)
+    vars.put(&quot;requestorAccountId&quot;, accountId)
+    vars.put(&quot;accountNumber&quot;, accountNumber)
+    vars.put(&quot;creditHolderName&quot;, creditHolderName)
+
+    // Logging
+    log.info(&quot; Using Member ${memberIndex}/${actualTotalMembers} | accessId=${accessId}_${memberIndex} | counter=${counter}&quot;)
+
+    // Random Amount
+    def amount = (new Random().nextInt(600) + 1).toString()
+    vars.put(&quot;amount_api10&quot;, amount)
+
+    // Generate processorTransactionId
+    def processorTransactionId = &quot;TXN_${timestamp}_${random4}_${randomSuffix}&quot;
+    vars.put(&quot;processorTransactionId_api10&quot;, processorTransactionId)
+
+    // SHA Generation
+    def inputString = &quot;${accountId}_${amount}_${accountNumber}_${processorTransactionId}&quot;
+    log.info(&quot;API 9 inputString: &quot; + inputString)
+
+    def shaHash = HmacUtils.hmacSha256Hex(accessSecret, inputString)
+    vars.put(&quot;shaHash_api10&quot;, shaHash)
+
+    //Get existing MerchantName
+    def cleanName = vars.get(&quot;debit_hit_once_IndividualMerchant&quot;)
+    vars.put(&quot;creditHolderName_api10&quot;, &quot;${cleanName}&quot;)
+
+} catch (Exception e) {
+    log.error(&quot;Error in API 9 :&quot;, e)
+    throw e
+}
+</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="accessid" elementType="Header">
+                <stringProp name="Header.name">accessid</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="accesskey" elementType="Header">
+                <stringProp name="Header.name">accesskey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="accountid" elementType="Header">
+                <stringProp name="Header.name">accountid</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Credit_Standard_ACH(New BusinessMerchant Hit Once)" enabled="false">
+        <stringProp name="TestPlan.comments">same counterparty info in all threads (merchant onboarding on first hit) the rest of the threads use this onboarded merchant</stringProp>
+        <intProp name="ThreadGroup.num_threads">500</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="API  10_Credit_Standard_Ach(new Merchant hit at once)" enabled="true">
+          <stringProp name="HTTPSampler.domain">${baseUrl}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${baseUrl}/payment-processing/v1/ach/credit</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;processorTransactionId&quot;: &quot;${processorTransactionId_api5}&quot;,&#xd;
+  &quot;processorTransactionBatchId&quot;: &quot;123410001&quot;,&#xd;
+  &quot;shaHash&quot;: &quot;${shaHash_api5}&quot;,&#xd;
+  &quot;amount&quot;: &quot;${amount_api5}&quot;,&#xd;
+  &quot;paymentType&quot;: &quot;STANDARD_ACH&quot;,&#xd;
+  &quot;receiver&quot;: {&#xd;
+    &quot;accountNumber&quot;: &quot;0112345678&quot;,&#xd;
+    &quot;bankAccountType&quot;: &quot;CHECKING&quot;,&#xd;
+    &quot;name&quot;: &quot;${creditHolderName_api5}&quot;,&#xd;
+    &quot;routingNumber&quot;: &quot;083900363&quot;,&#xd;
+    &quot;address&quot;: {&#xd;
+      &quot;addressLineOne&quot;: &quot;St Mary’s Road Buckingham Palace&quot;,&#xd;
+      &quot;addressLineTwo&quot;: &quot;Apt 101&quot;,&#xd;
+      &quot;city&quot;: &quot;Arizona&quot;,&#xd;
+      &quot;state&quot;: &quot;Murphy&quot;,&#xd;
+      &quot;postalCode&quot;: &quot;62701&quot;,&#xd;
+      &quot;countryCode&quot;: &quot;US&quot;&#xd;
+    },&#xd;
+    &quot;counterPartyType&quot;: &quot;BUSINESS&quot;&#xd;
+  }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accessid</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accesskey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accountid</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="pre Script" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">import org.apache.commons.codec.digest.HmacUtils
+import java.util.Random
+import java.util.concurrent.atomic.AtomicInteger
+
+try {
+    // Timestamp &amp; random suffix
+    def timestamp = System.currentTimeMillis()
+    def randomSuffix = String.format(&quot;%04d&quot;, new Random().nextInt(10000))
+    def random4 = UUID.randomUUID().toString().replaceAll(&quot;-&quot;, &quot;&quot;).substring(0, 4).toUpperCase()
+
+     //Get Total no.of member account users
+    def totalMembers =  vars.get(&quot;TOTAL_MEMBERS&quot;).toInteger()
+    def memberPrefix = &quot;accessId_&quot;       
+
+    // Initialize a global counter
+    if (!props.containsKey(&quot;GLOBAL_COUNTER&quot;)) {
+    props.put(&quot;GLOBAL_COUNTER&quot;, new AtomicInteger(0))
+     }
+
+    // Increment counter
+    def counter = (props.get(&quot;GLOBAL_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+
+   // Detect total members dynamically (if some variables are missing)
+   def actualTotalMembers = 0
+   
+   for (int i = 1; i &lt;= totalMembers; i++) {
+    if (vars.get(&quot;${memberPrefix}${i}&quot;)) actualTotalMembers++
+    }
+    
+    if (actualTotalMembers == 0) {
+    log.error(&quot;No member variables found!&quot;)
+    return
+    }
+
+    // Calculate member index (1..actualTotalMembers)
+    def memberIndex = counter % actualTotalMembers
+    if (memberIndex == 0) memberIndex = actualTotalMembers
+
+   // Get member variables
+    def accessId = vars.get(&quot;accessId_${memberIndex}&quot;)
+    def accessKey = vars.get(&quot;accessKey_${memberIndex}&quot;)
+    def accessSecret = vars.get(&quot;accessSecret_${memberIndex}&quot;)
+    def accountId = vars.get(&quot;accountId_${memberIndex}&quot;)
+    def accountNumber = vars.get(&quot;accountNumber_${memberIndex}&quot;)
+    def creditHolderName = vars.get(&quot;memberName${memberIndex}&quot;)
+
+    // Set variables for the request header
+    vars.put(&quot;accessId&quot;, accessId)
+    vars.put(&quot;accessKey&quot;, accessKey)
+    vars.put(&quot;accessSecret&quot;, accessSecret)
+    vars.put(&quot;requestorAccountId&quot;, accountId)
+    vars.put(&quot;accountNumber&quot;, accountNumber)
+    vars.put(&quot;creditHolderName&quot;, creditHolderName)
+
+    // Logging
+    log.info(&quot; Using Member ${memberIndex}/${actualTotalMembers} | accessId=${accessId}_${memberIndex} | counter=${counter}&quot;)
+    
+    // Random Amount
+    def amount = (new Random().nextInt(900) + 1).toString()
+    vars.put(&quot;amount_api5&quot;, amount)
+
+    // Generate processorTransactionId
+    def processorTransactionId = &quot;TXN_${timestamp}_${random4}_${randomSuffix}&quot;
+    vars.put(&quot;processorTransactionId_api5&quot;, processorTransactionId)
+
+    // SHA Generation
+    def inputString = &quot;${accountId}_${amount}_${accountNumber}_${processorTransactionId}&quot;
+    log.info(&quot;API 10 inputString: &quot; + inputString)
+
+    def shaHash = HmacUtils.hmacSha256Hex(accessSecret, inputString)
+    vars.put(&quot;shaHash_api5&quot;, shaHash)
+
+    //Get existing MerchantName
+    def cleanName = vars.get(&quot;credhit_hit_once_businessMerchant&quot;)
+    vars.put(&quot;creditHolderName_api5&quot;, &quot;${cleanName}&quot;)
+
+} catch (Exception e) {
+    log.error(&quot;Error in API 10 PreProcessor:&quot;, e)
+    throw e
+}
+</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PreNote_Credit(All Individual new merchants)">
+        <stringProp name="TestPlan.comments">For Every thread/request one New Individual merchant is created.</stringProp>
+        <intProp name="ThreadGroup.num_threads">500</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="API  11_PreNote_Credit" enabled="true">
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${baseUrl}/payment-processing/v1/ach/credit</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;processorTransactionId&quot;: &quot;${processorTransactionId_api11}&quot;,&#xd;
+  &quot;processorTransactionBatchId&quot;: &quot;123410001&quot;,&#xd;
+  &quot;shaHash&quot;: &quot;${shaHash_api11}&quot;,&#xd;
+  &quot;amount&quot;: &quot;${amount_api11}&quot;,&#xd;
+  &quot;paymentType&quot;: &quot;STANDARD_ACH&quot;,&#xd;
+  &quot;receiver&quot;: {&#xd;
+    &quot;accountNumber&quot;: &quot;${dynamicAccountNumber}&quot;,&#xd;
+    &quot;bankAccountType&quot;: &quot;SAVINGS&quot;,&#xd;
+    &quot;name&quot;: &quot;${creditHolderName_api11}&quot;,&#xd;
+    &quot;routingNumber&quot;: &quot;075000022&quot;,&#xd;
+    &quot;address&quot;: {&#xd;
+      &quot;addressLineOne&quot;: &quot;133 Macdougal Speru&quot;,&#xd;
+      &quot;addressLineTwo&quot;: &quot;380 Harrogate Road&quot;,&#xd;
+      &quot;city&quot;: &quot;Florida&quot;,&#xd;
+      &quot;state&quot;: &quot;AZ&quot;,&#xd;
+      &quot;postalCode&quot;: &quot;62701&quot;,&#xd;
+      &quot;countryCode&quot;: &quot;US&quot;&#xd;
+    },&#xd;
+    &quot;counterPartyType&quot;: &quot;INDIVIDUAL&quot;&#xd;
+  }&#xd;
+}&#xd;
+</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Pre Script" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">import org.apache.commons.codec.digest.HmacUtils
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.ThreadLocalRandom
+import java.util.UUID
+import com.github.javafaker.Faker
+
+try {
+    // ==============================
+    // Timestamp &amp; Random values
+    // ==============================
+    def timestamp = System.currentTimeMillis()
+    def rnd = ThreadLocalRandom.current()
+    def randomSuffix = String.format(&quot;%04d&quot;, rnd.nextInt(10000))
+    def random3a = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 3).toUpperCase()
+    def random3b = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 3).toUpperCase()
+
+    // ==============================
+ 	// Generate Unique Account Number (Best of Both)
+	// ==============================
+	if (!props.containsKey(&quot;ACCOUNT_NUMBER_COUNTER&quot;)) {
+	    def runId = (System.currentTimeMillis() % 100000000).toInteger()  // Last 8 digits of timestamp
+	    def startNumber = 600000000 + runId
+	    props.put(&quot;ACCOUNT_NUMBER_COUNTER&quot;, new AtomicInteger(startNumber))
+	    log.info(&quot;Account counter initialized at: ${startNumber} for this test run&quot;)
+	}
+
+	def accountCounter = (props.get(&quot;ACCOUNT_NUMBER_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+	def accountLength = 9 + rnd.nextInt(8)
+	def dynamicAccountNumber = String.format(&quot;%0${accountLength}d&quot;, accountCounter)
+	vars.put(&quot;dynamicAccountNumber&quot;, dynamicAccountNumber)
+
+    // ==============================
+    // Faker – person name
+    // ==============================
+    def faker = new Faker()
+    def fakeName = faker.name().fullName()
+
+    // ==============================
+    // Total members
+    // ==============================
+    def totalMembers = vars.get(&quot;TOTAL_MEMBERS&quot;)?.toInteger()
+    def memberPrefix = &quot;accessId_&quot;
+
+    if (!totalMembers || totalMembers &lt;= 0) {
+        log.error(&quot;TOTAL_MEMBERS is not set or invalid&quot;)
+        return
+    }
+
+    // ==============================
+    // Global counter (thread-safe)
+    // ==============================
+    if (!props.containsKey(&quot;GLOBAL_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_COUNTER&quot;, new AtomicInteger(0))
+    }
+    def counter = (props.get(&quot;GLOBAL_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+
+    // ==============================
+    // Detect available members
+    // ==============================
+    def actualTotalMembers = 0
+    for (int i = 1; i &lt;= totalMembers; i++) {
+        if (vars.get(memberPrefix + i)) {
+            actualTotalMembers++
+        }
+    }
+    if (actualTotalMembers == 0) {
+        log.error(&quot;No member variables found!&quot;)
+        return
+    }
+
+    // ==============================
+    // Round-robin member selection
+    // ==============================
+    def memberIndex = ((counter - 1) % actualTotalMembers) + 1
+
+    // ==============================
+    // Fetch member variables
+    // ==============================
+    def accessId = vars.get(&quot;accessId_&quot; + memberIndex)
+    def accessKey = vars.get(&quot;accessKey_&quot; + memberIndex)
+    def accessSecret = vars.get(&quot;accessSecret_&quot; + memberIndex)
+    def accountId = vars.get(&quot;accountId_&quot; + memberIndex)
+    def accountNumber = vars.get(&quot;accountNumber_&quot; + memberIndex)
+    def creditHolderName = vars.get(&quot;memberName&quot; + memberIndex)
+
+    if (!accessId || !accessSecret || !accountId || !accountNumber) {
+        log.error(&quot;Missing credentials for member &quot; + memberIndex)
+        return
+    }
+
+    // ==============================
+    // Set request variables
+    // ==============================
+    vars.put(&quot;accessId&quot;, accessId)
+    vars.put(&quot;accessKey&quot;, accessKey)
+    vars.put(&quot;accessSecret&quot;, accessSecret)
+    vars.put(&quot;requestorAccountId&quot;, accountId)
+    vars.put(&quot;accountNumber&quot;, accountNumber)
+    vars.put(&quot;creditHolderName&quot;, creditHolderName)
+
+    log.info(&quot;Using Member ${memberIndex}/${actualTotalMembers} | accessId=${accessId} | counter=${counter}&quot;)
+
+    // ==============================
+    // PreNote amount is always zero
+    // ==============================
+    def amount = &quot;0.00&quot;
+    vars.put(&quot;amount_api11&quot;, amount)
+
+    // ==============================
+    // Processor Transaction ID
+    // ==============================
+    def processorTransactionId = &quot;TXN_${timestamp}_${random3a}_${randomSuffix}&quot;
+    vars.put(&quot;processorTransactionId_api11&quot;, processorTransactionId)
+
+    // ==============================
+    // SHA-256 HMAC generation
+    // ==============================
+    def inputString = &quot;${accountId}_${amount}_${accountNumber}_${processorTransactionId}&quot;
+    def shaHash = HmacUtils.hmacSha256Hex(accessSecret, inputString)
+    vars.put(&quot;shaHash_api11&quot;, shaHash)
+
+    // ==============================
+    // New Merchant Name
+    // ==============================
+    def cleanName = fakeName.replaceAll(&quot;[^a-zA-Z0-9 ]&quot;, &quot;&quot;)
+    vars.put(&quot;creditHolderName_api11&quot;, &quot;${cleanName}_${randomSuffix}_${random3b}&quot;)
+
+} catch (Exception e) {
+    log.error(&quot;Error in API 11 PreNote_credit:&quot;, e)
+    throw e
+}
+</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accessId</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accessKey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">accountId</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="PreNote_Debit(All new Business merchants)">
+        <stringProp name="TestPlan.comments">For Every thread/request one New Business merchant is created.</stringProp>
+        <intProp name="ThreadGroup.num_threads">500</intProp>
+        <intProp name="ThreadGroup.ramp_time">600</intProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="API  12_PreNote_Debit" enabled="true">
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${baseUrl}/payment-processing/v1/ach/debit</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;processorTransactionId&quot;: &quot;${processorTransactionId_api12}&quot;,&#xd;
+  &quot;processorTransactionBatchId&quot;: &quot;123410001&quot;,&#xd;
+  &quot;shaHash&quot;: &quot;${shaHash_api12}&quot;,&#xd;
+  &quot;amount&quot;: &quot;${amount_api12}&quot;,&#xd;
+  &quot;paymentType&quot;: &quot;STANDARD_ACH&quot;,&#xd;
+  &quot;payor&quot;: {&#xd;
+    &quot;accountNumber&quot;: &quot;${dynamicAccountNumber}&quot;,&#xd;
+    &quot;bankAccountType&quot;: &quot;CHECKING&quot;,&#xd;
+    &quot;name&quot;: &quot;${creditHolderName_api12}&quot;,&#xd;
+    &quot;routingNumber&quot;: &quot;101019644&quot;,&#xd;
+    &quot;address&quot;: {&#xd;
+      &quot;addressLineOne&quot;: &quot;456 Elm St, Grand Rapids&quot;,&#xd;
+      &quot;addressLineTwo&quot;: &quot;22St Mary’s Road&quot;,&#xd;
+      &quot;city&quot;: &quot;France&quot;,&#xd;
+      &quot;state&quot;: &quot;ID&quot;,&#xd;
+      &quot;postalCode&quot;: &quot;90701&quot;,&#xd;
+      &quot;countryCode&quot;: &quot;US&quot;&#xd;
+    },&#xd;
+    &quot;counterPartyType&quot;: &quot;BUSINESS&quot;&#xd;
+  }&#xd;
+}&#xd;
+</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Headers" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="accessId" elementType="Header">
+                <stringProp name="Header.name">accessId</stringProp>
+                <stringProp name="Header.value">${accessId}</stringProp>
+              </elementProp>
+              <elementProp name="accessKey" elementType="Header">
+                <stringProp name="Header.name">accessKey</stringProp>
+                <stringProp name="Header.value">${accessKey}</stringProp>
+              </elementProp>
+              <elementProp name="accountId" elementType="Header">
+                <stringProp name="Header.name">accountId</stringProp>
+                <stringProp name="Header.value">${requestorAccountId}</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Pre script" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">import org.apache.commons.codec.digest.HmacUtils
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.ThreadLocalRandom
+import java.util.UUID
+import com.github.javafaker.Faker
+
+try {
+    // ==============================
+    // Timestamp &amp; Random values
+    // ==============================
+    def timestamp = System.currentTimeMillis()
+    def rnd = ThreadLocalRandom.current()
+    def randomSuffix = String.format(&quot;%04d&quot;, rnd.nextInt(10000))
+    def random4 = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 4).toUpperCase()
+    def random2 = UUID.randomUUID().toString().replace(&quot;-&quot;, &quot;&quot;).substring(0, 2).toUpperCase()
+
+    // ==============================
+ 	// Generate Unique Account Number (Best of Both)
+	// ==============================
+	if (!props.containsKey(&quot;ACCOUNT_NUMBER_COUNTER&quot;)) {
+	    def runId = (System.currentTimeMillis() % 100000000).toInteger()  // Last 8 digits of timestamp
+	    def startNumber = 600000000 + runId
+	    props.put(&quot;ACCOUNT_NUMBER_COUNTER&quot;, new AtomicInteger(startNumber))
+	    log.info(&quot;Account counter initialized at: ${startNumber} for this test run&quot;)
+	}
+
+	def accountCounter = (props.get(&quot;ACCOUNT_NUMBER_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+	def accountLength = 9 + rnd.nextInt(8)
+	def dynamicAccountNumber = String.format(&quot;%0${accountLength}d&quot;, accountCounter)
+	vars.put(&quot;dynamicAccountNumber&quot;, dynamicAccountNumber)
+
+    // ==============================
+    // Faker – company name
+    // ==============================
+    def faker = new Faker()
+    def fakeName = faker.company().name()
+
+    // ==============================
+    // Total members
+    // ==============================
+    def totalMembers = vars.get(&quot;TOTAL_MEMBERS&quot;)?.toInteger()
+    def memberPrefix = &quot;accessId_&quot;
+
+    if (!totalMembers || totalMembers &lt;= 0) {
+        log.error(&quot;TOTAL_MEMBERS is not set or invalid&quot;)
+        return
+    }
+
+    // ==============================
+    // Global counter (thread-safe)
+    // ==============================
+    if (!props.containsKey(&quot;GLOBAL_COUNTER&quot;)) {
+        props.put(&quot;GLOBAL_COUNTER&quot;, new AtomicInteger(0))
+    }
+    def counter = (props.get(&quot;GLOBAL_COUNTER&quot;) as AtomicInteger).incrementAndGet()
+
+    // ==============================
+    // Detect available members
+    // ==============================
+    def actualTotalMembers = 0
+    for (int i = 1; i &lt;= totalMembers; i++) {
+        if (vars.get(memberPrefix + i)) {
+            actualTotalMembers++
+        }
+    }
+    if (actualTotalMembers == 0) {
+        log.error(&quot;No member variables found!&quot;)
+        return
+    }
+
+    // ==============================
+    // Round-robin member selection
+    // ==============================
+    def memberIndex = ((counter - 1) % actualTotalMembers) + 1
+
+    // ==============================
+    // Fetch member variables
+    // ==============================
+    def accessId = vars.get(&quot;accessId_&quot; + memberIndex)
+    def accessKey = vars.get(&quot;accessKey_&quot; + memberIndex)
+    def accessSecret = vars.get(&quot;accessSecret_&quot; + memberIndex)
+    def accountId = vars.get(&quot;accountId_&quot; + memberIndex)
+    def accountNumber = vars.get(&quot;accountNumber_&quot; + memberIndex)
+    def creditHolderName = vars.get(&quot;memberName&quot; + memberIndex)
+
+    if (!accessId || !accessSecret || !accountId || !accountNumber) {
+        log.error(&quot;Missing credentials for member &quot; + memberIndex)
+        return
+    }
+
+    // ==============================
+    // Set request variables
+    // ==============================
+    vars.put(&quot;accessId&quot;, accessId)
+    vars.put(&quot;accessKey&quot;, accessKey)
+    vars.put(&quot;accessSecret&quot;, accessSecret)
+    vars.put(&quot;requestorAccountId&quot;, accountId)
+    vars.put(&quot;accountNumber&quot;, accountNumber)
+    vars.put(&quot;creditHolderName&quot;, creditHolderName)
+
+    log.info(&quot;Using Member ${memberIndex}/${actualTotalMembers} | accessId=${accessId} | counter=${counter}&quot;)
+
+    // ==============================
+    // PreNote amount is always zero
+    // ==============================
+    def amount = &quot;0.00&quot;
+    vars.put(&quot;amount_api12&quot;, amount)
+
+    // ==============================
+    // Processor Transaction ID
+    // ==============================
+    def processorTransactionId = &quot;TXN_${timestamp}_${random4}_${randomSuffix}&quot;
+    vars.put(&quot;processorTransactionId_api12&quot;, processorTransactionId)
+
+    // ==============================
+    // SHA-256 HMAC generation
+    // ==============================
+    def inputString = &quot;${accountId}_${amount}_${accountNumber}_${processorTransactionId}&quot;
+    log.info(&quot;API 12 SHA inputString: &quot; + inputString)
+
+    def shaHash = HmacUtils.hmacSha256Hex(accessSecret, inputString)
+    vars.put(&quot;shaHash_api12&quot;, shaHash)
+
+    // ==============================
+    // New Merchant Name
+    // ==============================
+    def cleanName = fakeName.replaceAll(&quot;[^a-zA-Z0-9 ]&quot;, &quot;&quot;)
+    vars.put(&quot;creditHolderName_api12&quot;, &quot;${cleanName}_${randomSuffix}_${random2}&quot;)
+
+} catch (Exception e) {
+    log.error(&quot;Error in API 12 PreNote Debit:&quot;, e)
+    throw e
+}
+</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <boolProp name="saveHeaders">false</boolProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>true</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.HitsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Hits per Second" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <longProp name="interval_grouping">1000</longProp>
+        <boolProp name="graph_aggregated">false</boolProp>
+        <stringProp name="include_sample_labels"></stringProp>
+        <stringProp name="exclude_sample_labels"></stringProp>
+        <stringProp name="start_offset"></stringProp>
+        <stringProp name="end_offset"></stringProp>
+        <boolProp name="include_checkbox_state">false</boolProp>
+        <boolProp name="exclude_checkbox_state">false</boolProp>
+      </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+      <hashTree/>
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.TransactionsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Transactions per Second" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <longProp name="interval_grouping">1000</longProp>
+        <boolProp name="graph_aggregated">false</boolProp>
+        <stringProp name="include_sample_labels"></stringProp>
+        <stringProp name="exclude_sample_labels"></stringProp>
+        <stringProp name="start_offset"></stringProp>
+        <stringProp name="end_offset"></stringProp>
+        <boolProp name="include_checkbox_state">false</boolProp>
+        <boolProp name="exclude_checkbox_state">false</boolProp>
+      </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+      <hashTree/>
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThreadsStateOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Active Threads Over Time" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <longProp name="interval_grouping">500</longProp>
+        <boolProp name="graph_aggregated">false</boolProp>
+        <stringProp name="include_sample_labels"></stringProp>
+        <stringProp name="exclude_sample_labels"></stringProp>
+        <stringProp name="start_offset"></stringProp>
+        <stringProp name="end_offset"></stringProp>
+        <boolProp name="include_checkbox_state">false</boolProp>
+        <boolProp name="exclude_checkbox_state">false</boolProp>
+      </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+      <hashTree/>
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.LatenciesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Latencies Over Time" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <longProp name="interval_grouping">500</longProp>
+        <boolProp name="graph_aggregated">false</boolProp>
+        <stringProp name="include_sample_labels"></stringProp>
+        <stringProp name="exclude_sample_labels"></stringProp>
+        <stringProp name="start_offset"></stringProp>
+        <stringProp name="end_offset"></stringProp>
+        <boolProp name="include_checkbox_state">false</boolProp>
+        <boolProp name="exclude_checkbox_state">false</boolProp>
+      </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+      <hashTree/>
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <longProp name="interval_grouping">500</longProp>
+        <boolProp name="graph_aggregated">false</boolProp>
+        <stringProp name="include_sample_labels"></stringProp>
+        <stringProp name="exclude_sample_labels"></stringProp>
+        <stringProp name="start_offset"></stringProp>
+        <stringProp name="end_offset"></stringProp>
+        <boolProp name="include_checkbox_state">false</boolProp>
+        <boolProp name="exclude_checkbox_state">false</boolProp>
+      </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+      <hashTree/>
+      <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ThroughputVsThreadsGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Transaction Throughput vs Threads" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+        <longProp name="interval_grouping">500</longProp>
+        <boolProp name="graph_aggregated">false</boolProp>
+        <stringProp name="include_sample_labels"></stringProp>
+        <stringProp name="exclude_sample_labels"></stringProp>
+        <stringProp name="start_offset"></stringProp>
+        <stringProp name="end_offset"></stringProp>
+        <boolProp name="include_checkbox_state">false</boolProp>
+        <boolProp name="exclude_checkbox_state">false</boolProp>
+      </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
